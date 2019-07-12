@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Main from './components/Main';
-
+import Time from './components/Time';
 
 function Master(){
     const mySty = {
@@ -15,6 +15,7 @@ function Master(){
             <h1 style={mySty}>{master}</h1>
             <Header />
             <Main />
+            <Time />
             <Footer />
         </div>
     )

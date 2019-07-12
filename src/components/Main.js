@@ -9,9 +9,9 @@ function Main(){
             <input type="checkbox" />
             <p className="lorem">Lorem</p>
             <input type="checkbox" />
-            <p>Lorem</p>
+            <p style={{color: "pink"}} >Lorem</p>
             <input type="checkbox" />
-            <p>Lorem</p>
+            <p style={{backgroundColor:"orange"}}>Lorem</p>
         </main>
     )
 }
