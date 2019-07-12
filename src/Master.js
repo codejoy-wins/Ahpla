@@ -9,9 +9,10 @@ function Master(){
         color: "gold",
         textAlign: "center",
     }
+    const master = "Master";
     return(
         <div>
-            <h1 style={mySty}>Master</h1>
+            <h1 style={mySty}>{master}</h1>
             <Header />
             <Main />
             <Footer />
