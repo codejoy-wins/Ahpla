@@ -7,7 +7,7 @@ function Main(){
     return(
         <main style={mySty}>
             <input type="checkbox" />
-            <p>Lorem</p>
+            <p className="lorem">Lorem</p>
             <input type="checkbox" />
             <p>Lorem</p>
             <input type="checkbox" />
