@@ -1,4 +1,5 @@
 import React from "react";
+import ToDoItem from './ToDoItem';
 
 function Main(){
     const mySty = {
@@ -6,12 +7,9 @@ function Main(){
     }
     return(
         <main style={mySty}>
-            <input type="checkbox" />
-            <p className="lorem">Lorem</p>
-            <input type="checkbox" />
-            <p style={{color: "pink"}} >Lorem</p>
-            <input type="checkbox" />
-            <p style={{backgroundColor:"orange"}}>Lorem</p>
+            <ToDoItem/>
+            <ToDoItem/>
+            <ToDoItem/>
         </main>
     )
 }
